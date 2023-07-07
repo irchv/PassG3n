@@ -2,6 +2,9 @@ import string
 from argparse import ArgumentParser
 import random
 import secrets
+from pyfiglet import figlet_format
+
+print(figlet_format("P @ s s G 3 n", font='standard'))
 
 parser = ArgumentParser(prog='PassGen', description='GENERATE SAFE PASSWORDS')
 
