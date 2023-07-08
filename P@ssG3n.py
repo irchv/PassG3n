@@ -4,7 +4,7 @@ import random
 import secrets
 from pyfiglet import figlet_format
 
-print(figlet_format("P @ s s G 3 n", font='standard'))
+print(figlet_format("              P @ S S G 3 N", font='standard'))
 
 parser = ArgumentParser(prog='PassGen', description='GENERATE SAFE PASSWORDS')
 
@@ -14,7 +14,7 @@ parser.add_argument("-u", "--upr", default=0, help="Number of uppercase digits i
 parser.add_argument("-s", "--spec", default=0, help="Number of special digits in the pass", type=int)
 parser.add_argument("-t", "--total", default=0, help="It will ignore all of the above and it will generate a totally random pass with the specified length", type=int)
 parser.add_argument("-a", "--amount", default=1, help="The amount of generated passwords", type=int)
-parser.add_argument("-o", "--output")
+parser.add_argument("-o", "--output"  help="Outputs the passwords in a /name/.txt (naming the file is done while executing the script) when attched to the execution of the script")
 
 args = parser.parse_args()
 
