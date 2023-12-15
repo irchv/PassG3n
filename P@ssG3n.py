@@ -2,9 +2,57 @@ import string
 from argparse import ArgumentParser
 import random
 import secrets
-from pyfiglet import figlet_format
 
-print(figlet_format("              P @ S S G 3 N", font='standard'))
+print("""
+
+                    ██████╗  █████╗ ███████╗███████╗ ██████╗ ███████╗███╗   ██╗
+                    ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝ ██╔════╝████╗  ██║
+                    ██████╔╝███████║███████╗███████╗██║  ███╗█████╗  ██╔██╗ ██║
+                    ██╔═══╝ ██╔══██║╚════██║╚════██║██║   ██║██╔══╝  ██║╚██╗██║
+                    ██║     ██║  ██║███████║███████║╚██████╔╝███████╗██║ ╚████║
+                    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝                                                                               
+                                                ░░░░                                                
+                                             ░████████░░                                            
+                                          ▓██████░ ▓██████░                                         
+                                      ▒██████░       ░░███████                                      
+                                ░░███████░                ░███████░░                                
+                            ░▓███████░                       ░░████████░                            
+                        ████████░ ░                              ░ ░████████░                       
+                    ███████                                              ███████                    
+                    ███░                                                    ░███                    
+                    ▓███                                                    ░███                    
+                     ███                                                    ███░                    
+                     ███░                                                  ░███                     
+                     ███░                                                  ░███                     
+                     ▒███                                                  ▓███                     
+                      ███░                                                 ███                      
+                      ███░                                                ░███                      
+                      ░███                                                ███░                      
+                       ███▓                                              ░███                       
+                        ███░                                            ░███                        
+                        ░███░                                           ███░                        
+                         ░███                                          ███░                         
+                          ░███░                                      ░███░                          
+                            ████░                                   ████░                           
+                              ████                                ████░                             
+                              ░░████                           ░████░░                              
+                                 ░█████░░                   ░█████░                                 
+                                    ░█████░              ░█████░                                    
+                                       ░█████░        ░█████▒                                       
+                                         ░░█████    █████▓░                                         
+                                             ░████████░                                             
+                                                ░██░                                                                    
+                                                                                    """)
+print("""
+-n 	--nums 	    Number of digits in the pass
+-l 	--lower     Number of lowercase digits in the pass
+-u 	--upr 	    Number of uppercase digits in the pass
+-s 	--spec 	    Number of special digits in the pass
+-t 	--total 	It will ignore all of the above and it will generate a totally random pass with the specified length
+-a 	--amount 	The amount of generated passwords
+-o 	--output 	Outputs the passwords in a /name/.txt (naming the file is done while executing the script) when attched to the execution of the script
+!!! PLEASE DO NOT COPY  !!!
+""")
 
 parser = ArgumentParser(prog='PassGen', description='GENERATE SAFE PASSWORDS')
 
