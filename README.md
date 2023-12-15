@@ -2,9 +2,6 @@
 
 
 ![image](https://github.com/irchv/PassG3n/assets/100216301/744f96b6-8c6c-4187-81da-14f91e4b48aa)
-# Project Title
-
-A brief description of what this project does: 
 
 A very easy to use and for some people useful tool for generating secure passwords so your accounts can be safe online. 
 
