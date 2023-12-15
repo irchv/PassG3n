@@ -1,4 +1,7 @@
 
+
+
+![image](https://github.com/irchv/PassG3n/assets/100216301/744f96b6-8c6c-4187-81da-14f91e4b48aa)
 # Project Title
 
 A brief description of what this project does: 
@@ -34,8 +37,6 @@ Running the script:
 | `-o` | `--output` | Outputs the passwords in a /name/.txt (naming the file is done while executing the script) when attched to the execution of the script |
 
 
-
-![image](https://github.com/irchv/PassG3n/assets/100216301/744f96b6-8c6c-4187-81da-14f91e4b48aa)
 
 
 
